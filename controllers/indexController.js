@@ -2,7 +2,7 @@ var dateFormat = require('dateformat');
 
 exports.homePage = function(req, res, next) {
 
-    res.render('index', { title: 'Express' });
+    res.render('index', { title: 'Timestamp microservice' });
 }
 
 exports.timeStamp = function(req, res, next) {
